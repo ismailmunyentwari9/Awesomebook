@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>Awesome books</title>
+</head>
+
+<body>
+  <header>
+  <nav>
+    <div><a class="badge" href="index.html">Awesome Books</a></div>
+
+    <ul class="menu">
+
+      <li>
+        <a href="#list" id="list-link">List</a>
+      </li><span>|</span>
+      <li>
+        <a href="#add" id="add-link">Add</a></li>
+        <span>|</span>
+      <li>
+        <a href="#contact" id="contact-link">Contact</a>
+      </li>
+       
+  </nav>
+  </header>
+  
+  <div class="date" id="date"></div>
+
+  <section class="list-section" id="list">
+    <center> <h1>Awesome Books</h1></center>
+    <div id="booklist"></div>
+  </section>
+
+ <center> <section id="add-book">
+    <center><h2>Add a new book</h2></center>
+    <form id="book-form" method="post">
+      <label for="title"></label>
+      <input id='title' type="text" placeholder="title" required> <br>
+      <label for="author"></label> <br>
+      <input id='author' type="text" placeholder="author" required> <br> <br>
+      <button type="button" id="add-btn">Add</button>
+    </form>
+  </section></center>
+</main>
+
+<center> <section class="contact-section ">
+  <h2>Contact Information</h2>
+  <p>
+    Do you have any questions or you just want to say "hello" ? <br />You can
+    reach out to us
+  </p>
+  <ul>
+    <li>Our E-mail: rita&isma@gmail.com</li>
+    <li>Our Phone number: 0000-7777-9999</li>
+    <li>
+      Our Address: Lorem Iporium
+    </li>
+  </ul>
+</section></center>
+<footer>Copyright ...</footer>
+  <script type="module" defer src="index.js"></script>
+</body>
+
+</html> 

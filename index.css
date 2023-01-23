@@ -1,0 +1,159 @@
+
+.main {
+  width: 60%;
+  margin: 10rem 20%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+input {
+  border: 2px solid gray;
+  width: 60%;
+  height: 2rem;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #999;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/****  second project request  *****/
+
+#booklist {
+  border: 4px solid black;
+  margin: 0 auto;
+  width: auto;
+}
+
+#booklist div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#booklist div:nth-child(odd) {
+  background-color: silver;
+  width: 100%;
+}
+
+.title-author {
+  display: flex;
+  margin-bottom: auto;
+}
+
+form button {
+  float: right;
+  margin-right: 20%;
+  box-shadow: 2px 2px black;
+  padding: 4px 19px;
+  background-color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#booklist button {
+  margin-bottom: 0.5rem;
+  margin-right: 15px;
+  margin-top: 12px;
+  padding: 6px 19px;
+  background-color: white;
+  box-shadow: 2px 2px black;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.title-name {
+  margin-right: 2px;
+}
+
+form {
+  margin-top: 1rem;
+  width: 80%;
+}
+
+h1,
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+/****  Third project request  *****/
+nav {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#add-book {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu a,
+.badge {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: blue;
+}
+
+#date {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  margin-bottom: 30px;
+}
+
+#list {
+  width: 100%;
+  display: none;
+}
+
+#list h1 {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  font-size: 28px;
+}
+
+#message {
+  text-align: center;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 8rem;
+}
+
+.contact-section {
+  text-align: center;
+  display: none;
+}
+
+.contact-section p {
+  padding-bottom: 24px;
+}
+
+.contact-section ul {
+  padding-bottom: 124px;
+}
+
+.contact-section ul li {
+  list-style-type: none;
+}

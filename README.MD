@@ -102,9 +102,10 @@ To run the project, execute the following command:
 
 
 ## 🔭 Future Features <a name="future-features"></a>
--Create More pages.  <br>
+
 -Adding a screen reader.  <br>
 -adding database to store booklist.  <br>
+-Create More pages.  <br>
 
 
 
